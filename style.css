@@ -15,12 +15,9 @@ body{
 header{
     /* Signup */
 
-position: absolute;
-width: 600px;
-height: 144px;
-left: 202px;
-top: 90px;
 
+width: 50vh;
+height: 60px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -35,7 +32,7 @@ color: #FFFFFF;
 form {
     display: flex;
     flex-direction: column;
-    width: 1177px;
+    width:50vw ;
 /* height: 58px; */
 height: 600px;
 justify-content: space-evenly;
@@ -45,7 +42,7 @@ justify-content: space-evenly;
 }
 main{
     position: absolute;
-    top:155px;
+    top:105px;
 }
 label{
     color: white;
@@ -57,6 +54,7 @@ input[type]{
   border-bottom: 1px solid white;
   padding: 10px;
   font-size: 15px;
+  color: #FFFFFF;
   
 }
 input[type="date"]{
